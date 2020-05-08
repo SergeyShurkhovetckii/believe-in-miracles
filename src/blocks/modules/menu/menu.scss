@@ -1,8 +1,9 @@
-.decorline{
+.decorline {
     height: 4px;
     background-image: url(../../../img/svg/decorline.svg);
-   
+
 }
+
 .menu {
     &__bottom {}
 
@@ -10,31 +11,56 @@
         margin-left: 32px;
         line-height: 24px;
     }
+
     /**Последнему элементу убрать отступ**/
-    &__item:first-child{
+    &__item:first-child {
         margin-left: 0px;
     }
+
     /**Второму элементу отступ меньше**/
-    &__item:nth-child(2){
+    &__item:nth-child(2) {
         margin-left: 12px;
     }
-
-
 
     &__items {
         display: flex;
         flex-wrap: wrap;
     }
 
-    &__lang {}
+    &__lang {
+        margin-left: 61px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    &__lang a::after{
+        content: "|";
+    }
+    /**Посмотреть как убрать переход с последнего элемента**
+    &__lang a:last-child{
+        content: "";
+    }
+    */
+    &__tel {
+        margin-left: 142px;
+        font-size: 14px;
+        line-height: 21px;
 
-    &__tel {}
-
-    &__tel-blue {}
+    }
+/**Ставлю жирные цифры**/
+    &__tel span {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 27px;
+    }
+/**Модификатор голубого цвета **/
+    &__tel-blue {
+        color: #008AC4;
+    }
 
     &__top {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 26px;
+        margin-top: 30px;
     }
 }
