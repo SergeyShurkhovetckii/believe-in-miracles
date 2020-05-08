@@ -3,7 +3,6 @@
     background-image: url(../../../img/svg/decorline.svg);
 
 }
-
 .menu {
     &__bottom {}
 
@@ -62,5 +61,50 @@
         display: flex;
         flex-wrap: wrap;
         margin-top: 30px;
+    }
+}
+/**Нижняя часть меню**/
+
+.bottom {
+    display: flex;
+}
+
+
+.social {
+    &__hashtag {
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__item {
+        margin-right: 6px;
+    }
+    &__item:last-child{
+        margin-right: 0px;
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__row {
+        margin-top: 34px;
+    }
+}
+
+/**Кнопка отчетности**/
+.reporting {
+    &__btn {
+        margin-top: 40px;
+        margin-left: 88px;
+    }
+
+    &__btn-yellow {
+        border: 2px solid #FA873D;
+        padding: 8px 15px 8px 15px ;
+    }
+    &__btn-yellow:hover{
+        border: 2px solid #008AC4;
     }
 }
