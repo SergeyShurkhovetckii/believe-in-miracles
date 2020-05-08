@@ -3,9 +3,8 @@
     background-image: url(../../../img/svg/decorline.svg);
 
 }
-.menu {
-    &__bottom {}
 
+.menu {
     &__item {
         margin-left: 32px;
         line-height: 24px;
@@ -31,28 +30,34 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
+        color: #133A4B;
     }
-    &__lang a::after{
+
+    &__lang a::after {
         content: "|";
+        color: #133A4B;
     }
+
     /**Посмотреть как убрать переход с последнего элемента**/
     &__lang a:last-child:after {
-    content: "";
+        content: "";
     }
-    
+
     &__tel {
         margin-left: 142px;
         font-size: 14px;
         line-height: 21px;
 
     }
-/**Ставлю жирные цифры**/
+
+    /**Ставлю жирные цифры**/
     &__tel span {
         font-weight: 800;
         font-size: 18px;
         line-height: 27px;
     }
-/**Модификатор голубого цвета **/
+
+    /**Модификатор голубого цвета **/
     &__tel-blue {
         color: #008AC4;
     }
@@ -63,6 +68,7 @@
         margin-top: 30px;
     }
 }
+
 /**Нижняя часть меню**/
 
 .bottom {
@@ -80,7 +86,8 @@
     &__item {
         margin-right: 6px;
     }
-    &__item:last-child{
+
+    &__item:last-child {
         margin-right: 0px;
     }
 
@@ -102,15 +109,59 @@
 
     &__btn-yellow {
         border: 2px solid #FA873D;
-        padding: 8px 15px 8px 15px ;
+        padding: 8px 15px 8px 15px;
     }
-    &__btn-yellow:hover{
+
+    &__btn-yellow:hover {
         border: 2px solid #008AC4;
     }
 }
 
 /**логотип**/
 .logo {
-    margin-top: 12px;
-    margin-left: 90px;
+    &__pic {
+        margin-top: 12px;
+        margin-left: 90px;
+    }
+}
+
+/**Форм поиска**/
+/**Нужно понять как писать на scss**/
+.search {
+    display: flex;
+
+    &__header {
+        margin-top: 40px;
+        margin-left: 106px;
+        position: relative; //**у родителя *//
+    }
+
+}
+
+input[type="text"] {
+    height: 36px;
+    border: 1px solid #C9E0EC;
+    border-radius: 5px;
+    width: 333px;
+    /**непонятно почему не сходиться с макетом  **/
+
+}
+
+input::placeholder {
+    color: #8EAAB6;
+    padding-top: 6px;
+    /*margin-left:15px;непонятно как сдвинуть placeholder*/
+}
+
+.seach-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    top: 0;
+    right: 0; //**Прибил кнопку**//
+    position: absolute; //**задал для элемента *//
+
 }
