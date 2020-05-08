@@ -1,7 +1,19 @@
 .menu {
     &__bottom {}
 
-    &__item {}
+    &__item {
+        margin-left: 32px;
+    }
+    /**Последнему элементу убрать отступ**/
+    &__item:first-child{
+        margin-left: 0px;
+    }
+    /**Второму элементу отступ меньше**/
+    &__item:nth-child(2){
+        margin-left: 12px;
+    }
+
+
 
     &__items {
         display: flex;
@@ -17,6 +29,5 @@
     &__top {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
 }
