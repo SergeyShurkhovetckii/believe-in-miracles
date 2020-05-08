@@ -32,6 +32,11 @@ a{
     text-decoration: none;
     color: #133A4B;
 }
+a:hover{
+    color:#FA873D;
+}
 
 /*Иконки svg**/
-.icon-svg {}
+.icon-svg rect:hover{
+    fill:#FA873D;
+}

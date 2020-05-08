@@ -1,8 +1,14 @@
+.decorline{
+    height: 4px;
+    background-image: url(../../../img/svg/decorline.svg);
+   
+}
 .menu {
     &__bottom {}
 
     &__item {
         margin-left: 32px;
+        line-height: 24px;
     }
     /**Последнему элементу убрать отступ**/
     &__item:first-child{
@@ -29,5 +35,6 @@
     &__top {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 26px;
     }
 }
