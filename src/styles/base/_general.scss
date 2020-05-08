@@ -10,3 +10,26 @@ h1, h2, h3, h4, h5, h6, ul {
     @include lg(max-width, rem(930));
     @include xl(max-width, rem(1110));
 }
+body{
+    color: #133A4B;
+}
+
+/**Обертки*/
+.wrapper-full{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+/**Оформления для Ссылки**/
+a{
+    text-decoration: none;
+    color: #133A4B;
+}
+
+/*Иконки svg**/
+.icon-svg {}
