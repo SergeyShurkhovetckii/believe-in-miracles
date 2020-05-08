@@ -36,11 +36,11 @@
     &__lang a::after{
         content: "|";
     }
-    /**Посмотреть как убрать переход с последнего элемента**
-    &__lang a:last-child{
-        content: "";
+    /**Посмотреть как убрать переход с последнего элемента**/
+    &__lang a:last-child:after {
+    content: "";
     }
-    */
+    
     &__tel {
         margin-left: 142px;
         font-size: 14px;
