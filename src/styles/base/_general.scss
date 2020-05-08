@@ -41,3 +41,19 @@ a:hover{
 .icon-svg rect:hover{
     fill:#008AC4;
 }
+
+
+/*Изображения**/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/**Кнопки*/
+
+.help__btn{
+    
+    max-width: 170px;
+    text-align: center;
+}

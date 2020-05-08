@@ -1,0 +1,30 @@
+.main {
+    &__pic {
+        margin-top: 17px;
+        position: relative;
+    }
+}
+.help {
+    position: absolute;
+    left: 460px;
+    bottom: 30px;
+    &__btn {}
+
+    &__btn-orange {
+        background: #FA873D;
+        border-radius: 20px;
+        padding: 8px 25px 8px 25px;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    }
+    &__btn-orange a{
+        color: #fff;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__btn-orange:hover{
+        background: #008AC4;
+    }
+
+}
+
