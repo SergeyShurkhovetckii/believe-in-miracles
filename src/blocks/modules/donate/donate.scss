@@ -1,28 +1,42 @@
-
 .donate {
     &__container {
         background: #008AC4;
         margin-top: 56px;
     }
+
     &__row1 {
         width: 455px;
+        margin-bottom: 5px;
+
+
     }
 
     &__row2 {
         width: 495px;
+
     }
 
     &__rows {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        line-height: 36px;
     }
+
+    &__rows span {
+        background: #FA873D;
+    }
+
     &__title {
         text-align: center;
         padding-top: 41px;
         padding-bottom: 28px;
 
         &--white {
-            color:#fff;
+            color: #fff;
         }
     }
 }
