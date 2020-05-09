@@ -41,6 +41,9 @@ a:hover{
 .icon-svg rect:hover{
     fill:#008AC4;
 }
+.icon-svg circle:hover{
+    fill:#FA873D;
+}
 
 
 /*Изображения**/
@@ -48,6 +51,15 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/**Заголовок**/
+.title{
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 36px;
+    color: #FA873D;
+}
+
 
 
 /**Кнопки*/
