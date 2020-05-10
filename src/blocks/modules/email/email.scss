@@ -5,9 +5,25 @@
 
     }
 
-    &__row {}
+    &__row {
+        padding-top: 45px;
+        padding-bottom: 37px;
+        display: flex;
+        justify-content: center;
+    }
 
-    &__subtitle {}
+
+    &__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    &__subscribe {
+    
+    }
+
+color: #FFFFFF;
+    }
 
     &__title {
         padding-top: 41px;
