@@ -4,12 +4,6 @@
     &__about {
         margin-left: 23px;
     }
-    &--bg-blue {}
-
-    &--bg-orange {
-        background: url(../../../img/svg/people/background/orange.svg) no-repeat center;
-    }
-
     &__colums {
         display: flex;
     }
@@ -39,6 +33,16 @@
 //**отступ от 2 последних элементов наверное можно сделать проше **//
 .item:nth-child(n+3){
     margin-top: 60px;
+}
+
+//***Фон для блоков с отзывами****///
+
+.about-blue {
+    background: url(../../../img/svg/people/background/blue.svg) no-repeat center;
+}
+
+.about-orange {
+    background: url(../../../img/svg/people/background/orange.svg) no-repeat center;
 }
 
 .reviews {
