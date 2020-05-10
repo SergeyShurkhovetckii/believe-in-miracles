@@ -1,11 +1,17 @@
 .email {
     &__container {
-        background: #000;
+        background: #FA873D;
+        margin-top: 117px;
+
     }
 
     &__row {}
 
     &__subtitle {}
 
-    &__title {}
+    &__title {
+        padding-top: 41px;
+        text-align: center;
+        color: #fff;
+    }
 }
