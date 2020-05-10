@@ -1,0 +1,27 @@
+.faq {
+    &__item {
+        max-width: 245px;
+        text-align: center;
+    }
+
+    &__items {
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+
+    &__pic {}
+
+    &__row {
+        max-width: 865px;
+        margin: 0 auto;
+    }
+
+    &__text {}
+
+    &__title {
+        text-align: center;
+        margin-top: 51px;
+        margin-bottom: 78px;
+    }
+}
