@@ -6,7 +6,7 @@
 
     &__items {
         display: flex;
-        justify-content:space-between;
+        justify-content:space-around;
         flex-wrap: wrap;
     }
 
@@ -23,5 +23,11 @@
         text-align: center;
         margin-top: 51px;
         margin-bottom: 78px;
+    }
+    &__bottom {
+
+    }
+
+    &__btn {
     }
 }
