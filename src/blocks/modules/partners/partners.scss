@@ -1,0 +1,28 @@
+.partner {
+    &__item {
+        width: 20%;
+        text-align: center;
+
+    }
+
+    //*Как без высоты указать текст на одной оси **//
+    &__pic {
+        height: 104px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    &__text {
+        margin-top: 15px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 71px;
+    }
+}
