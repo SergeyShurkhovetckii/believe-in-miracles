@@ -4,10 +4,11 @@
     &__about {
         margin-left: 23px;
     }
+
     &__colums {
         display: flex;
     }
-    
+
 
     &__pic {
         max-width: 157px;
@@ -22,16 +23,18 @@
     &__title {
         max-width: 326px;
         margin-bottom: 13px;
+
         &--black {
-            color:#133A4B;
+            color: #133A4B;
             font-weight: 500;
             font-size: 20px;
             line-height: 22px;
         }
     }
 }
+
 //**отступ от 2 последних элементов наверное можно сделать проше **//
-.item:nth-child(n+3){
+.item:nth-child(n+3) {
     margin-top: 60px;
 }
 
@@ -52,6 +55,7 @@
         justify-content: space-between;
 
     }
+
     &__title {
         margin-top: 63px;
         text-align: center;
