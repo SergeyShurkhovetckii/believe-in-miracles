@@ -3,13 +3,14 @@
         max-width: 245px;
         text-align: center;
     }
-    &__item:nth-child(2){
-        max-width:357px;
+
+    &__item:nth-child(2) {
+        max-width: 357px;
     }
 
     &__items {
         display: flex;
-        justify-content:end;
+        justify-content: end;
         flex-wrap: wrap;
     }
 
@@ -27,10 +28,5 @@
         margin-top: 51px;
         margin-bottom: 78px;
     }
-    &__bottom {
 
-    }
-
-    &__btn {
-    }
 }
