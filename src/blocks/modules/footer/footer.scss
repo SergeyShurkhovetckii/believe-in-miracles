@@ -1,0 +1,28 @@
+.footer {
+    &__colums {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    &__logo {}
+
+    &__pic {
+        margin-top: 41px;
+        margin-bottom: 38px;
+    }
+
+    &__row {}
+
+    &__social {}
+
+    &__top {}
+}
+
+.social {
+    &__hashtag {}
+
+    &__item {}
+
+    &__items {}
+}
