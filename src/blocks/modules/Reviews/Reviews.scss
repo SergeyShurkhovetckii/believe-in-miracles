@@ -4,6 +4,11 @@
     &__about {
         margin-left: 23px;
     }
+    &--bg-blue {}
+
+    &--bg-orange {
+        background: url(../../../img/svg/people/background/orange.svg) no-repeat center;
+    }
 
     &__colums {
         display: flex;
