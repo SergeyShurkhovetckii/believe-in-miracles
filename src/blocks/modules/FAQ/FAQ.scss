@@ -3,10 +3,13 @@
         max-width: 245px;
         text-align: center;
     }
+    &__item:nth-child(2){
+        max-width:357px;
+    }
 
     &__items {
         display: flex;
-        justify-content:space-around;
+        justify-content:end;
         flex-wrap: wrap;
     }
 
