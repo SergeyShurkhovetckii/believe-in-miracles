@@ -10,6 +10,7 @@
     &__pic {
         margin-top: 41px;
         margin-bottom: 38px;
+        max-width: 300px;
     }
 
     &__row {}
@@ -17,7 +18,27 @@
     &__social {}
 
     &__top {}
+
 }
+
+.address {
+    &__colums {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    &__email {}
+
+    &__mail {}
+
+    &__map {}
+
+    &__tel {}
+
+    &__text {}
+}
+
 
 .social {
     &__hashtag {}
