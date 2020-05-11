@@ -31,3 +31,28 @@ color: #FFFFFF;
         color: #fff;
     }
 }
+
+input.subscribe{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    width: 358px;
+    height: 42px;
+    border: none;
+}
+input.subscribe::placeholder{
+    color: #fff;
+    padding-left: 19px;
+    padding-top: 9px;
+}
+input[type="checkbox"]{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    margin-right: 11px;
+    margin-top: 13px;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+.email__subscribe{
+    color: #fff;
+}
