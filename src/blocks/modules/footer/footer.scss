@@ -87,5 +87,66 @@
 
 
 /**Media**/
+@media screen and (max-width:1024px) {
+.bottom {
+    &__container {}
 
+    &__copy {}
 
+    &__titile {}
+}
+
+.footer {
+    &__bottom {}
+
+    &__columns {}
+
+    &__icon {}
+
+    &__icons {}
+
+    &__info {}
+
+    &__item {}
+
+    &__link {}
+
+    &__list {}
+
+    &__lists {}
+
+    &__logo {}
+
+    &__menu {}
+
+    &__pic {}
+
+    &__social {}
+
+    &__top {}
+}
+
+.footer-svg {}
+
+.social {
+    &__hashtag {}
+
+    &__item {}
+
+    &__items {}
+
+    &__row {}
+}
+
+}
+@media screen and (max-width:768px){
+    .bottom {
+        &__container {}
+    
+        &__copy {}
+    
+        &__titile {
+            font-size: 14px;
+        }
+    }
+}
