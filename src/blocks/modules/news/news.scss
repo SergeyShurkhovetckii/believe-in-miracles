@@ -15,7 +15,6 @@
 
     &__row {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
     }
 
@@ -36,6 +35,23 @@
         margin-top: 56px;
         display: inline-block;
         padding: 8px 32px 8px 32px;
+    }
+}
+
+//***Media**//
+@media screen and (max-width:768px) {
+.news {
+    &__item {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__item:last-child{
+        margin-bottom: 0px;
+    }
+
+    &__row {
+        flex-direction: column;
     }
 }
 
