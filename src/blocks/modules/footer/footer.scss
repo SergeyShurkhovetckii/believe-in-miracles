@@ -1,49 +1,78 @@
 .footer {
-    &__colums {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    &__logo {}
-
-    &__pic {
-        margin-top: 41px;
-        margin-bottom: 38px;
-        max-width: 300px;
-    }
-
-    &__row {}
-
-    &__social {}
-
-    &__top {}
-
-}
-
-.address {
-    &__colums {
+    &__columns {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
     }
 
-    &__email {}
+    /**Блок с иконками**/
 
-    &__mail {}
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        margin-top: 18px;
+    }
 
-    &__map {}
+    &__icon:first-child {
+        margin-top: 0px;
+    }
 
-    &__tel {}
+    &__icon:last-child {
+        margin-top: 33px;
+    }
 
-    &__text {}
-}
-
-
-.social {
-    &__hashtag {}
+    &__icons {
+        margin-left: 105px;
+        margin-right: 11px;
+    }
 
     &__item {}
 
-    &__items {}
+    &__logo {}
+
+    &__pic {}
+
+    &__social {}
+
+    &__top {
+        margin-top: 41px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        max-width: 272px;
+    }
+
+    //*Блок с ссылками **//
+    &__link {
+        margin-top: 18px;
+    }
+
+    &__link:first-child {
+        margin-top: 0px;
+    }
+
+    &__link:last-child {
+        margin-top: 12px;
+    }
+
+    &__lists {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__list {
+        margin-top: 27px;
+    }
+
+    &__list:first-child {
+        margin-top: 0px;
+    }
+
+    &__menu {
+        display: flex;
+        margin-left: 46px;
+        justify-content: space-between;
+        width: 314px;
+    }
 }
