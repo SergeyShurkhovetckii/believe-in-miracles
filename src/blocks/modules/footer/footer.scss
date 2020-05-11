@@ -25,14 +25,6 @@
         margin-right: 11px;
     }
 
-    &__item {}
-
-    &__logo {}
-
-    &__pic {}
-
-    &__social {}
-
     &__top {
         margin-top: 41px;
     }
@@ -74,5 +66,21 @@
         margin-left: 46px;
         justify-content: space-between;
         width: 314px;
+    }
+    &__bottom {
+        margin-top: 57px;
+    }
+}
+.bottom {
+    &__container {
+        background: #133A4B;
+    }
+
+    &__copy {}
+
+    &__titile {
+        padding-top: 38px;
+        padding-bottom: 33px;
+        color: #fff;
     }
 }
