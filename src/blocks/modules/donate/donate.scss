@@ -41,3 +41,23 @@
         }
     }
 }
+
+/**Media**/
+@media screen and (max-width:1024px){
+
+.donate {
+    &__container {}
+
+    &__row1 {}
+
+    &__row2 {}
+
+    &__rows {
+        width: 100%;
+    }
+
+    &__title {
+        &--white {}
+    }
+}
+}
