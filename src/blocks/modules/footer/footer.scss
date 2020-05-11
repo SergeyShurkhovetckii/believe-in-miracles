@@ -143,10 +143,48 @@
     .bottom {
         &__container {}
     
-        &__copy {}
+        &__copy {
+            flex-direction: column;
+        }
     
         &__titile {
-            font-size: 14px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
+    }
+    .footer {
+        &__bottom {}
+    
+        &__columns {
+            flex-direction: column;
+        }
+    
+        &__icon {}
+    
+        &__icons {}
+    
+        &__info {}
+    
+        &__item {}
+    
+        &__link {}
+    
+        &__list {
+        }
+    
+        &__lists {}
+    
+        &__logo {}
+    
+        &__menu {
+            flex-direction: column;
+
+        }
+    
+        &__pic {}
+    
+        &__social {}
+    
+        &__top {}
     }
 }
