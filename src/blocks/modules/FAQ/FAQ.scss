@@ -4,6 +4,7 @@
         text-align: center;
         margin-left: 10px;
     }
+
     &__item:first-child {
         margin-left: 0;
     }
@@ -14,7 +15,6 @@
 
     &__items {
         display: flex;
-        flex-wrap: wrap;
         justify-content: end;
     }
 
@@ -31,5 +31,26 @@
         text-align: center;
         margin-top: 51px;
         margin-bottom: 78px;
+    }
+}
+
+
+//**Media **///
+@media screen and (max-width:1366px) {
+    .faq {
+        &__item {
+            max-width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+
+        &__items {
+            flex-direction: column;
+        }
+
+        &__item:first-child {
+            margin: 0 auto;
+            margin-top: 0px;
+        }
     }
 }
