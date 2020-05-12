@@ -97,12 +97,18 @@ img {
 
 
 /**Media**/
+@media screen and (max-width:1366px) {
+    .wrapper-full{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:1024px) {
     .wrapper{
         width: 100%;
     }
     .wrapper-full{
-        width: 100%;
+        width:100%;
     }
     .title{
         text-align: center;

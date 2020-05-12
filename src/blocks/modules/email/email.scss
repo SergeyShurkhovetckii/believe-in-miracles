@@ -55,3 +55,22 @@ input[type="checkbox"] {
 .email__subscribe {
     color: #fff;
 }
+
+
+///***Media****///
+@media screen and (max-width:768px) {
+    .email {
+        &__subscribe {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    input.subscribe{
+        width: 100%;
+    }
+    .subscribe-btn{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
