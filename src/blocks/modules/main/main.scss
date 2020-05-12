@@ -28,3 +28,20 @@
         background: #008ac4;
     }
 }
+
+////**Media***////
+
+@media screen and (max-width:1366px) {
+    .help {
+        left:0;
+        bottom: 0;
+        &__btn {}
+        &__btn-orange {}
+    }
+    
+    .main {
+        &__pic {
+            max-width: 100%;
+        }
+    }
+}
