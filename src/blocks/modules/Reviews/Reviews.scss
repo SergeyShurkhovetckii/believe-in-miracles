@@ -61,3 +61,27 @@
         margin-bottom: 71px;
     }
 }
+
+
+//****Media**///
+
+@media screen and (max-width:1366px) {
+    .item {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .item:nth-child(n+3) {
+        margin-top: 0px;
+    }
+
+
+    .news {
+
+
+        &__btn {
+            margin-top: 10px;
+        }
+    }
+}
