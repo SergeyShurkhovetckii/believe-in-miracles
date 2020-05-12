@@ -1,8 +1,7 @@
 .email {
     &__container {
-        background: #FA873D;
+        background: #fa873d;
         margin-top: 117px;
-
     }
 
     &__row {
@@ -14,15 +13,15 @@
 
 
     &__subtitle {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
 
-    &__subscribe {
+        color: #ffffff;
+
+        &__subscribe {
     
-    }
-
-color: #FFFFFF;
+        }
     }
 
     &__title {
@@ -32,27 +31,27 @@ color: #FFFFFF;
     }
 }
 
-input.subscribe{
+input.subscribe {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 4px;
     width: 358px;
     height: 42px;
     border: none;
 }
-input.subscribe::placeholder{
+input.subscribe::placeholder {
     color: #fff;
     padding-left: 19px;
     padding-top: 9px;
 }
-input[type="checkbox"]{
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: none;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 4px;
     margin-right: 11px;
     margin-top: 13px;
-    border: none;
-    width: 20px;
-    height: 20px;
 }
-.email__subscribe{
+.email__subscribe {
     color: #fff;
 }

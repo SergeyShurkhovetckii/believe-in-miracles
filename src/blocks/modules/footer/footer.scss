@@ -13,7 +13,7 @@
     }
 
     &__icon:first-child {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     &__icon:last-child {
@@ -41,7 +41,7 @@
     }
 
     &__link:first-child {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     &__link:last-child {
@@ -58,7 +58,7 @@
     }
 
     &__list:first-child {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     &__menu {
@@ -73,7 +73,7 @@
 }
 .bottom {
     &__container {
-        background: #133A4B;
+        background: #133a4b;
     }
 
     &__copy {}
@@ -88,58 +88,57 @@
 
 /**Media**/
 @media screen and (max-width:1024px) {
-.bottom {
-    &__container {}
+    .bottom {
+        &__container {}
 
-    &__copy {}
+        &__copy {}
 
-    &__titile {}
+        &__titile {}
+    }
+
+    .footer {
+        &__bottom {}
+
+        &__columns {}
+
+        &__icon {}
+
+        &__icons {}
+
+        &__info {}
+
+        &__item {}
+
+        &__link {}
+
+        &__list {}
+
+        &__lists {}
+
+        &__logo {}
+
+        &__menu {}
+
+        &__pic {}
+
+        &__social {}
+
+        &__top {}
+    }
+
+    .footer-svg {}
+
+    .social {
+        &__hashtag {}
+
+        &__item {}
+
+        &__items {}
+
+        &__row {}
+    }
 }
-
-.footer {
-    &__bottom {}
-
-    &__columns {}
-
-    &__icon {}
-
-    &__icons {}
-
-    &__info {}
-
-    &__item {}
-
-    &__link {}
-
-    &__list {}
-
-    &__lists {}
-
-    &__logo {}
-
-    &__menu {}
-
-    &__pic {}
-
-    &__social {}
-
-    &__top {}
-}
-
-.footer-svg {}
-
-.social {
-    &__hashtag {}
-
-    &__item {}
-
-    &__items {}
-
-    &__row {}
-}
-
-}
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .bottom {
         &__container {}
     
@@ -178,7 +177,6 @@
     
         &__menu {
             flex-direction: column;
-
         }
     
         &__pic {}

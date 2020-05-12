@@ -4,8 +4,8 @@
         text-align: center;
         margin-left: 10px;
     }
-    &__item:first-child{
-        margin-left: 0px;
+    &__item:first-child {
+        margin-left: 0;
     }
 
     &__item:nth-child(2) {
@@ -14,8 +14,8 @@
 
     &__items {
         display: flex;
-        justify-content: end;
         flex-wrap: wrap;
+        justify-content: end;
     }
 
     &__pic {}
@@ -32,5 +32,4 @@
         margin-top: 51px;
         margin-bottom: 78px;
     }
-
 }

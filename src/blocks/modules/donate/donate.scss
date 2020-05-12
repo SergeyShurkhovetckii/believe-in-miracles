@@ -1,20 +1,17 @@
 .donate {
     &__container {
-        background: #008AC4;
+        background: #008ac4;
         margin-top: 56px;
     }
 
     &__row1 {
         width: 455px;
         margin-bottom: 5px;
-
-
     }
 
     &__row2 {
         width: 495px;
         padding-bottom: 26px;
-
     }
 
     &__rows {
@@ -28,7 +25,7 @@
     }
 
     &__rows span {
-        background: #FA873D;
+        background: #fa873d;
     }
 
     &__title {
@@ -43,21 +40,27 @@
 }
 
 /**Media**/
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
 
-.donate {
-    &__container {}
+    .donate {
+        &__container {
+        }
 
-    &__row1 {}
+        &__row1 {
+            width: 100%;
+        }
 
-    &__row2 {}
+        &__row2 {
+            width: 100%;
+        }
 
-    &__rows {
-        width: 100%;
+        &__rows {
+            text-align: center;
+        }
+
+        &__title {
+            text-align: center;
+            &--white {}
+        }
     }
-
-    &__title {
-        &--white {}
-    }
-}
 }
