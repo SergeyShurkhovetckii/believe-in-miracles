@@ -161,3 +161,63 @@ input::placeholder {
     outline: none;
     cursor: pointer;
 }
+
+///***Media***/////
+@media screen and (max-width:1024px) {
+    .bottom {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .logo {
+        &__pic {
+            text-align: center;
+            margin-left: 0px;
+            margin-top: 40px;
+        }
+    }
+
+    .menu {
+        &__item {
+            /////***Убираю , не ясно что с ним делать****/////
+            display: none;
+        }
+
+        &__items {}
+
+        &__lang {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 50%;
+        }
+
+        &__tel {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 50%;
+        }
+    }
+
+    .reporting {
+        &__btn {
+            margin-left: 0px;
+            justify-content: center;
+            display: flex;
+        }
+    }
+
+    .seach-btn {
+        right: 20px;
+    }
+
+    .search {
+        &__header {
+            margin-left: 0px;
+            padding: 0px 20px 0px 20px;
+        }
+    }
+   
+}
