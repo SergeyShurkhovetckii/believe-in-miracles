@@ -47,13 +47,11 @@ a:hover {
 }
 
 /*Иконки svg**/
-.icon-svg rect:hover {
-    fill: #008AC4;
-    transition-duration: 500ms;
+.icon-svg{
+    fill :#133A4B;
 }
-
-.icon-svg circle:hover {
-    fill: #FA873D;
+.icon-svg:hover {
+    fill: #fa873d;
     transition-duration: 500ms;
 }
 
