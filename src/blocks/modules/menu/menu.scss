@@ -177,7 +177,7 @@ input::placeholder {
     .logo {
         &__pic {
             text-align: center;
-            margin-left: 0px;
+            margin-left: 0;
             margin-top: 40px;
         }
     }
@@ -191,24 +191,24 @@ input::placeholder {
         &__items {}
 
         &__lang {
-            text-align: center;
-            margin: 0 auto;
             max-width: 50%;
-            color: #133A4B;
+            margin: 0 auto;
+            text-align: center;
+            color: #133a4b;
         }
 
         &__tel {
-            text-align: center;
-            margin: 0 auto;
             max-width: 50%;
+            margin: 0 auto;
+            text-align: center;
         }
     }
 
     .reporting {
         &__btn {
-            margin-left: 0px;
-            justify-content: center;
             display: flex;
+            justify-content: center;
+            margin-left: 0;
         }
     }
 
@@ -218,9 +218,8 @@ input::placeholder {
 
     .search {
         &__header {
-            margin-left: 0px;
-            padding: 0px 20px 0px 20px;
+            margin-left: 0;
+            padding: 0 20px 0 20px;
         }
     }
-   
 }
