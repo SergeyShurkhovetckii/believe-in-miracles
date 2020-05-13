@@ -43,15 +43,16 @@ a {
 
 a:hover {
     color: #008AC4;
+    transition-duration: 500ms;
 }
 
 /*Иконки svg**/
-.icon-svg rect:hover {
-    fill: #008AC4;
+.icon-svg{
+    fill :#133A4B;
 }
-
-.icon-svg circle:hover {
-    fill: #FA873D;
+.icon-svg:hover {
+    fill: #fa873d;
+    transition-duration: 500ms;
 }
 
 .footer-svg{
@@ -69,6 +70,7 @@ img {
 }
 img:hover{
     opacity: 0.7;
+    transition-duration: 500ms;
 }
 
 

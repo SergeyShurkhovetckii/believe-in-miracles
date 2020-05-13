@@ -3,7 +3,7 @@
         margin-top: 16px;
         margin-bottom: 2px;
         &--blue {
-            color:#008AC4;
+            color: #008ac4;
         }
     }
 
@@ -26,9 +26,9 @@
         margin-bottom: 51px;
     }
     &__bottom {
-     width:auto;
-     display: flex;
-     justify-content: center;
+        display: flex;
+        justify-content: center;
+        width: auto;
     }
 
     &__btn {
@@ -40,19 +40,19 @@
 
 //***Media**//
 @media screen and (max-width:768px) {
-.news {
-    &__item {
-        max-width: 100%;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    &__item:last-child{
-        margin-bottom: 0px;
-    }
+    .news {
+        &__item {
+            max-width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        &__item:last-child {
+            margin-bottom: 0;
+        }
 
-    &__row {
-        flex-direction: column;
+        &__row {
+            flex-direction: column;
+        }
     }
-}
 }
 

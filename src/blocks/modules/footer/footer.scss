@@ -90,7 +90,7 @@
 @media screen and (max-width:1024px) {
     .footer {
         &__bottom {
-            margin-top: 0px;
+            margin-top: 0;
         }
         &__icons {
             display: none;
@@ -106,14 +106,14 @@
             margin-bottom: 30px;
         }
 
-        &__list:first-child{
+        &__list:first-child {
             margin-right: 20px;
         }
 
         &__menu {
-            width: 100%;
             justify-content: center;
-            margin-left: 0px;
+            width: 100%;
+            margin-left: 0;
         }
 
         &__pic {
