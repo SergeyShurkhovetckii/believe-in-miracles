@@ -22,6 +22,7 @@
     &__items {
         display: flex;
         flex-wrap: wrap;
+        width: 585px;
     }
 
     &__lang {
@@ -96,6 +97,7 @@
 
     &__row {
         margin-top: 34px;
+        width: 144px;
     }
 }
 
