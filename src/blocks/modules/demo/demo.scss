@@ -1,13 +1,12 @@
 .demo {
     &__container {
-        margin-top:100px;
+        margin-top: 100px;
     }
 
     &__list {
         display: flex;
         flex-direction: column;
     }
-
 }
 .demo-link {
     margin-bottom: 30px;
