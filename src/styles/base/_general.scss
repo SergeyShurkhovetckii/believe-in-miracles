@@ -36,12 +36,13 @@ body {
 }
 
 /**Оформления для Ссылки**/
-strong{
+strong {
     color: #133A4B;
     font-weight: 800;
     font-size: 18px;
     line-height: 27px;
 }
+
 a {
     text-decoration: none;
     color: #133A4B;
@@ -53,23 +54,25 @@ a:hover {
 }
 
 /*Иконки svg**/
-.icon-svg{
-    fill :#133A4B;
+.icon-svg {
+    fill: #133A4B;
 }
+
 .icon-svg:hover {
     fill: #fa873d;
     transition-duration: 500ms;
 }
-.svg-programa{
+
+.svg-programa {
     fill: #008AC4;
 }
 
-.footer-svg{
+.footer-svg {
     fill: #008AC4;
 }
 
-.footer-svg :hover{
-fill: #FA873D;
+.footer-svg :hover {
+    fill: #FA873D;
 }
 
 /*Изображения**/
@@ -77,7 +80,8 @@ img {
     max-width: 100%;
     height: auto;
 }
-img:hover{
+
+img:hover {
     opacity: 0.7;
     transition-duration: 500ms;
 }
@@ -98,6 +102,7 @@ img:hover{
     border: 2px dashed #C9E0EC;
     border-radius: 4px;
 }
+
 .subscribe-btn {
     background: #fff;
     cursor: pointer;
@@ -108,34 +113,39 @@ img:hover{
     color: #133A4B;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 0px rgba(0, 0, 0, 0.02);
 }
+
 //***Декоры страницы***///
-.decor{
+.decor {
     z-index: -1;
     position: absolute;
 }
-.decor-left{
-    left:125px;
+
+.decor-left {
+    left: 125px;
 }
-.decor-right{
-    right:125px;
+
+.decor-right {
+    right: 125px;
 }
 
 
 /**Media**/
 @media screen and (max-width:1366px) {
-    .wrapper-full{
+    .wrapper-full {
         width: 100%;
     }
 }
 
 @media screen and (max-width:1024px) {
-    .wrapper{
+    .wrapper {
         width: 100%;
     }
-    .wrapper-full{
-        width:100%;
+
+    .wrapper-full {
+        width: 100%;
     }
-    .title{
+
+    .title {
         text-align: center;
     }
 }
