@@ -1,0 +1,12 @@
+.demo {
+    &__container {
+        margin-top:100px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__lists {}
+}
