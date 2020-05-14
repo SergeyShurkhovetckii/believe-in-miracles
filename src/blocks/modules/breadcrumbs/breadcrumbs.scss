@@ -1,7 +1,21 @@
 .breadcrumbs {
     &__container {
         margin-top: 27px;
+        background: #F0F6FA;
     }
 
-    &__item {}
+    &__item {
+    }
+    &__item ::after{
+        content: "/";
+    }
+    &__link {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 36px;
+        color: #008AC4;
+        &--active {
+            color:#8EAAB6;
+        }
+    }
 }
