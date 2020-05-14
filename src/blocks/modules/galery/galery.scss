@@ -4,7 +4,8 @@
     &__icon {}
 
     &__item {
-        
+        display: flex;
+
     }
 
     &__row {
@@ -12,7 +13,9 @@
         justify-content: center;
     }
 
-    &__subtitle {}
+    &__subtitle {
+        margin-left: 10px;
+    }
 
     &__title {
         text-align: center;
