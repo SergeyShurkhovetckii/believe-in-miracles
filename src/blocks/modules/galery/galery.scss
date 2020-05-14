@@ -5,12 +5,14 @@
 
     &__item {
         display: flex;
+        
 
     }
 
     &__row {
         display: flex;
-        justify-content: center;
+        max-width: 480px;
+        justify-content: space-between;
     }
 
     &__subtitle {
