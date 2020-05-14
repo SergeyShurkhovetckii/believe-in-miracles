@@ -1,0 +1,22 @@
+.page-help-childs {
+    &__container {}
+
+    &__icon {}
+
+    &__item {
+        
+    }
+
+    &__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__subtitle {}
+
+    &__title {
+        text-align: center;
+        margin-top: 46px;
+        margin-bottom: 19px;
+    }
+}
