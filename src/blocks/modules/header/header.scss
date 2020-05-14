@@ -1,0 +1,227 @@
+.decorline {
+    height: 4px;
+    background-image: url(../../../img/svg/decorline.svg);
+}
+
+.menu {
+    &__item {
+        margin-left: 32px;
+        line-height: 24px;
+    }
+
+    /**Последнему элементу убрать отступ**/
+    &__item:first-child {
+        margin-left: 0;
+    }
+
+    /**Второму элементу отступ меньше**/
+    &__item:nth-child(2) {
+        margin-left: 12px;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        width: 585px;
+    }
+
+    &__lang {
+        margin-left: 61px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #133a4b;
+    }
+
+    &__lang a::after {
+        content: "|";
+        color: #133a4b;
+    }
+
+    /**Посмотреть как убрать переход с последнего элемента**/
+    &__lang a:last-child:after {
+        content: "";
+    }
+
+    &__tel {
+        margin-left: 142px;
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 161px;
+    }
+
+    /**Ставлю жирные цифры**/
+    &__tel span {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    /**Модификатор голубого цвета **/
+    &__tel-blue {
+        color: #008ac4;
+    }
+
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+}
+
+/**Нижняя часть меню**/
+
+.bottom {
+    display: flex;
+}
+
+
+.social {
+    &__hashtag {
+        margin-top: 4px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__item {
+        margin-right: 6px;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__row {
+        margin-top: 34px;
+        width: 144px;
+    }
+}
+
+/**Кнопка отчетности**/
+.reporting {
+    &__btn {
+        margin-top: 40px;
+        margin-left: 88px;
+    }
+
+    &__btn-yellow {
+        border: 2px solid #fa873d;
+        padding: 8px 15px 8px 15px;
+    }
+
+    &__btn-yellow:hover {
+        background: #fa873d;
+        color: #fff;
+        transition-duration: 600ms;
+    }
+}
+
+/**логотип**/
+.logo {
+    &__pic {
+        margin-top: 12px;
+        margin-left: 90px;
+    }
+}
+
+/**Форм поиска**/
+/**Нужно понять как писать на scss**/
+.search {
+    display: flex;
+
+    &__header {
+        margin-top: 40px;
+        margin-left: 106px;
+        position: relative; //**у родителя *//
+    }
+}
+
+input[type="text"] {
+    width: 333px;
+    height: 36px;
+    border: 1px solid #c9e0ec;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input[type="text"]::placeholder {
+    color: #8eaab6;
+    padding-top: 6px;
+}
+
+.seach-btn {
+    position: absolute; //**задал для элемента *//
+    top: 0;
+    right: 0; //**Прибил кнопку**//
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+///***Media***/////
+@media screen and (max-width:1024px) {
+    .bottom {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
+    .logo {
+        &__pic {
+            text-align: center;
+            margin-left: 0;
+            margin-top: 40px;
+        }
+    }
+
+    .menu {
+        &__item {
+            /////***Убираю , не ясно что с ним делать****/////
+            display: none;
+        }
+
+        &__items {}
+
+        &__lang {
+            max-width: 50%;
+            margin: 0 auto;
+            text-align: center;
+            color: #133a4b;
+        }
+
+        &__tel {
+            max-width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    .reporting {
+        &__btn {
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
+        }
+    }
+
+    .seach-btn {
+        right: 20px;
+    }
+
+    .search {
+        &__header {
+            margin-left: 0;
+            padding: 0 20px 0 20px;
+        }
+    }
+}
