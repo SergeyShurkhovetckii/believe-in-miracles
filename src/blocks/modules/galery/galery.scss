@@ -3,7 +3,9 @@
 
     &__icon {}
 
-    &__item {}
+    &__item {
+        display: flex;
+    }
 
     &__row {
         margin: 0 auto;
@@ -31,6 +33,7 @@
     &__colums {
         column-count: 4;
         column-gap: 20px;
+        margin-top: 27px;
     }
 
 }
