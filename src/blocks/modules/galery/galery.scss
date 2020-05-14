@@ -5,11 +5,12 @@
 
     &__item {
         display: flex;
-        
+
 
     }
 
     &__row {
+        margin: 0 auto;
         display: flex;
         max-width: 480px;
         justify-content: space-between;
@@ -17,6 +18,8 @@
 
     &__subtitle {
         margin-left: 10px;
+        padding-top: 10px;
+
     }
 
     &__title {
