@@ -28,12 +28,17 @@
 
     &__galery {}
 
-    &__colum {}
+    &__colum {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
     &__colums {
-        column-count: 4;
-        column-gap: 20px;
         margin-top: 27px;
+    }
+    &__card {
+        margin-bottom: 30px;
     }
 
 }
