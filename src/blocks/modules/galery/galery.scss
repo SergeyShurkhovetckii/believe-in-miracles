@@ -3,11 +3,7 @@
 
     &__icon {}
 
-    &__item {
-        display: flex;
-
-
-    }
+    &__item {}
 
     &__row {
         margin: 0 auto;
@@ -27,4 +23,14 @@
         margin-top: 46px;
         margin-bottom: 19px;
     }
+
+    &__galery {}
+
+    &__colum {}
+
+    &__colums {
+        column-count: 4;
+        column-gap: 20px;
+    }
+
 }
