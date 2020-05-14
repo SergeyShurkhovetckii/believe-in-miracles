@@ -42,3 +42,16 @@
     }
 
 }
+.galery-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 155px;
+    padding-bottom: 85px;
+    &__btn {
+        width: 252px;
+        box-shadow: 4px 4px 20px rgba(250, 135, 61, 0.5);
+        border-radius: 25px;
+        color: #fff;
+        text-align: center;
+    }
+}
