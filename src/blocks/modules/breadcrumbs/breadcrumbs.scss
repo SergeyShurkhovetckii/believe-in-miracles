@@ -1,27 +1,29 @@
 .breadcrumbs {
     &__container {
         margin-top: 27px;
-        background: #F0F6FA;
+        background: #f0f6fa;
         padding-left: 10px;
     }
 
-    &__item {
-    }
-    &__item ::after{
-        content:url('../../../img/svg/breadcrumbs\ arrow.svg');
+    &__item {}
+
+    &__item ::after {
+        content: url("../../../img/svg/breadcrumbs\ arrow.svg");
         margin-left: 15px;
         margin-right: 15px;
     }
-    &__item :last-child::after{
+
+    &__item :last-child::after {
         content: " ";
     }
+
     &__link {
-        font-weight: normal;
         font-size: 14px;
         line-height: 36px;
-        color: #008AC4;
+        color: #008ac4;
+
         &--active {
-            color:#8EAAB6;
+            color: #8eaab6;
         }
     }
 }
