@@ -68,13 +68,20 @@ a:hover {
 .svg-programa {
     fill: #008AC4;
 }
-
+///****svg Футер****//////
 .footer-svg {
     fill: #008AC4;
 }
 
 .footer-svg :hover {
     fill: #FA873D;
+}
+///***Svg галлерея ****/////
+.galery-svg{
+    fill:#C9E0EC;
+}
+.galery-svg:hover{
+    fill: #008AC4;
 }
 
 /*Изображения**/
@@ -98,6 +105,26 @@ img:hover {
 }
 
 /**Кнопки*/
+//*****Оранжевая кнопка****/////
+.btn-orange{
+    padding: 8px 25px 8px 25px;
+    background: #fa873d;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+   
+    &  a {
+        color: #fff;
+    }
+    
+}
+.btn-orange:hover {
+    background: #008ac4;
+    box-shadow: 4px 4px 20px rgba(0, 138, 196, 1);
+    transition-duration: 800ms;
+}
+
+
+
 
 /**Прозрачная кнопка*/
 .btn-transparent {

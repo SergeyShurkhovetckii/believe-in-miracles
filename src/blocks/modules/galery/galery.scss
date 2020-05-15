@@ -1,8 +1,4 @@
 .page-help-childs {
-    &__container {}
-
-    &__icon {}
-
     &__item {
         display: flex;
     }
@@ -26,8 +22,6 @@
         margin-bottom: 19px;
     }
 
-    &__galery {}
-
     &__colum {
         display: flex;
         justify-content: space-between;
@@ -37,21 +31,57 @@
     &__colums {
         margin-top: 27px;
     }
+
     &__card {
         margin-bottom: 30px;
     }
 
 }
+
 .galery-btn {
     display: flex;
     justify-content: center;
     padding-top: 155px;
-    padding-bottom: 85px;
+    padding-bottom: 84px;
+
     &__btn {
         width: 252px;
         box-shadow: 4px 4px 20px rgba(250, 135, 61, 0.5);
         border-radius: 25px;
         color: #fff;
         text-align: center;
+        padding: 8px 34px 12px 34px;
     }
+}
+
+
+//////////***Media***///////////
+@media screen and (max-width:1024px) {
+    .page-help-childs {
+        &__card {
+            width: 100%;
+        }
+    
+        &__colum {
+            flex-direction: column;
+        }
+    
+        &__colums {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .page-help-childs {
+        &__row {
+            flex-direction: column;
+        }
+        &__item {
+            justify-content: center;
+            margin-left: 0px;
+        }
+    }
+
 }
