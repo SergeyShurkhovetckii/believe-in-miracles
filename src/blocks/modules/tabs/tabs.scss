@@ -1,0 +1,11 @@
+.tabs {
+    &__container {
+        margin-top: 300px;
+    }
+
+    &__item {
+        &--active {}
+    }
+
+    &__nav {}
+}
