@@ -37,6 +37,15 @@ body {
     padding-right: 15px;
 }
 
+/**Заголовки***///////
+h6{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #133A4B;
+}
+
+
 /**Оформления для Ссылки**/
 strong {
     color: #133A4B;
@@ -82,6 +91,12 @@ a:hover {
 }
 .galery-svg:hover{
     fill: #008AC4;
+}
+.get-help-svg{
+    fill:#8EAAB6;
+}
+.get-help-svg:hover{
+    fill:#008AC4;
 }
 
 /*Изображения**/
