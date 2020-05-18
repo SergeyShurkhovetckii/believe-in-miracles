@@ -1,4 +1,4 @@
-modules.define('get-help', ['i-bem-dom'], function(provide, bemDom) {
+modules.define('teams', ['i-bem-dom'], function(provide, bemDom) {
 
 provide(bemDom.declBlock(this.name, {
     onSetMod: {

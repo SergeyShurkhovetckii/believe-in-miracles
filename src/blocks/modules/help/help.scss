@@ -1,6 +1,4 @@
 .gallery {
-    &__item {}
-
     &__row {
         margin-top: 40px;
         display: flex;
@@ -14,6 +12,7 @@
 
     &__title {
         max-width: 133px;
+        text-align: left;
     }
 
     &__text {

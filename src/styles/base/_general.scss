@@ -28,6 +28,7 @@ body {
 .wrapper-full {
     width: 1920px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .wrapper {
@@ -92,10 +93,10 @@ a:hover {
 .galery-svg:hover{
     fill: #008AC4;
 }
-.get-help-svg{
+.sing-page-svg{
     fill:#8EAAB6;
 }
-.get-help-svg:hover{
+.sing-page-svg:hover{
     fill:#008AC4;
 }
 
@@ -117,6 +118,7 @@ img:hover {
     font-size: 34px;
     line-height: 36px;
     color: #FA873D;
+    text-align: center;
 }
 
 /**Кнопки*/
@@ -145,6 +147,7 @@ img:hover {
 .btn-transparent {
     border: 2px dashed #C9E0EC;
     border-radius: 4px;
+    text-align: center;
 }
 
 .subscribe-btn {
@@ -156,6 +159,15 @@ img:hover {
     border: none;
     color: #133A4B;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 0px rgba(0, 0, 0, 0.02);
+}
+
+
+////***Формы****//////////
+.input-volunteer{
+  margin-bottom: 30px;
+}
+.input-volunteer::placeholder{
+    color: #fff;
 }
 
 //***Декоры страницы***///
@@ -171,6 +183,26 @@ img:hover {
 .decor-right {
     right: 125px;
 }
+///****Нумера списков****/////
+ul {
+    color: #FA873D;
+}
+ ol{
+    color: #FA873D;
+    font-weight: 800;
+}
+ul span {
+    color:#133A4B ;
+}
+ol span{
+    color:#133A4B ;
+    font-weight: 500;
+}
+li {
+    margin-bottom: 10px;
+}
+
+
 
 
 /**Media**/

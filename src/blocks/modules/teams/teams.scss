@@ -1,0 +1,112 @@
+.teams {
+    &__container{
+        margin-top: 38px;
+        margin-bottom: 133px;
+    }
+    &__item {
+        width:25%;
+        margin-bottom: 20px;
+    }
+
+    &__name {
+        padding-top: 11px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #133A4B;
+    }
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__slogan {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    &__specialty {
+        font-size: 16px;
+        line-height: 20px;
+        color: #8EAAB6;
+        margin-bottom: 20px;
+    }
+}
+.teams-about{
+    &__container{
+        background:#F0F6FA;
+        width: 100%;
+        padding: 60px 0px 60px 0px;
+    }
+    &__text {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+.teams-page {
+    margin-bottom: 67px;
+    &__btn {
+        width: 334px;
+        padding: 8px 25px 8px 25px;
+    }
+
+    &__colum {}
+
+    &__colums {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__conteiner {}
+
+    &__list {
+        list-style-type: square;
+        color: #133A4B;
+        padding-left: 20px;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 48px;
+        margin-bottom: 50px;
+    }
+
+    &__title {
+        text-align: left;
+        color: #008AC4;
+    }
+    h3{
+        padding-bottom: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    li{
+        font-weight: 500;
+        line-height: 24px;
+    }
+}
+
+/////**********Media***********//////////
+@media screen and (max-width:768px) {
+    .teams {
+        &__row {
+           flex-direction: column;
+           text-align: center;
+        }  
+        &__item {
+            width:50%;
+            margin: 0 auto;
+            margin-bottom: 60px;
+            
+        }
+    }
+    .teams-page {
+        &__colums {
+           flex-wrap: wrap;
+        }
+    }
+}

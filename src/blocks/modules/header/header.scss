@@ -175,6 +175,7 @@ input[type="text"]::placeholder {
 
     input[type="text"] {
         width: 100%;
+
     }
 
     .logo {
@@ -190,9 +191,6 @@ input[type="text"]::placeholder {
             /////***Убираю , не ясно что с ним делать****/////
             display: none;
         }
-
-        &__items {}
-
         &__lang {
             max-width: 50%;
             margin: 0 auto;
@@ -223,6 +221,7 @@ input[type="text"]::placeholder {
         &__header {
             margin-left: 0;
             padding: 0 20px 0 20px;
+            margin: 0 auto;
         }
     }
 }
