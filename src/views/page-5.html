@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Get help</title>
+        <title>Получить помощь</title>
         <meta name="theme-color" content="#c9e0e04d">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -27,8 +27,66 @@
     </head>
     <body>
         @@include("../blocks/modules/header/header.html")
-        @@include("../blocks/modules/breadcrumbs/breadcrumbs.html")
-        @@include("../blocks/modules/get-help/get-help.html")
+        <div class="wrapper">
+            <div class="breadcrumbs">
+                <div class="breadcrumbs__container">
+                    <div class="breadcrumbs__item">
+                        <a href="#" class="breadcrumbs__link">Главная</a>
+                        <a href="#" class="breadcrumbs__link breadcrumbs__link">Помочь детям</a>
+                        <a href="#" class="breadcrumbs__link breadcrumbs__link--active"> Получить помощь</a>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="sing-page__title title">Получить помощь</div>
+        @@include("../blocks/modules/sing-page/sing-page.html")
+        <div class="wrapper">
+         <!--Две колонки -->
+        <div class="sing-page__colum">
+            <div class="sing-page__colum--left">
+                <h6>Тяжелая болезнь ребенка — серьезное испытание.</h6>
+                <div class="sing-page__text">
+                    <p>
+                        Если Вашей семье пришлось столкнуться с тяжёлой болезнью ребенка, Вы растеряны, не знаете к
+                        кому обратиться за необходимой информацией и где найти средства на оплату дорогостоящих
+                        лекарств, процедур, назначенных врачом, оплату диагностики, лечения, транспортировки, — Вы
+                        всегда можете обратиться в «Верю в чудо».
+                        <br>
+                        <br>
+                        Даже если врачи признали свое бессилие перед болезнью Вашего ребенка, и он нуждается в
+                        паллиативной помощи, — мы готовы сделать всё возможное, для того что оказать Вам необходимую
+                        поддержку.
+                        <br>
+                        <br>
+                        Документы на получение помощи принимаются в консолидированном виде в административном центре
+                        «Верю в чудо» (площадь Победы 4, «Кловер Бизнес центр», оф. 320).
+                        <br>
+                        <br>
+                        Список документов на получение адресной помощи можно скачать<a
+                            class="sing-page__link--orandge" href="#"> здесь</a>.</p>
+                </div>
+            </div>
+            <div class="sing-page__colum--right">
+                <h6 class="sing-page__subtitle">Кому мы помогаем?</h6>
+                <ul class="sing-page__list">
+                    <li><span>Детям с онкологическими, генетическими, орфанными заболеваниями и их семьям.</span>
+
+                    </li>
+                    <li><span> Паллиативным детям-пациентам.</span>
+
+                    </li>
+                    <li><span>Семьям детей, ушедших из жизни по причине тяжелой болезни.</span>
+
+                    </li>
+                    <li><span>Воспитанникам детских социальных учреждений, имеющих тяжелые жизнеугрожающие
+                            диагнозы.</span>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
         @@include("../blocks/modules/partners/partners.html")
         @@include("../blocks/modules/email/email.html")
         @@include("../blocks/modules/footer/footer.html")

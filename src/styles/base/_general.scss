@@ -92,10 +92,10 @@ a:hover {
 .galery-svg:hover{
     fill: #008AC4;
 }
-.get-help-svg{
+.sing-page-svg{
     fill:#8EAAB6;
 }
-.get-help-svg:hover{
+.sing-page-svg:hover{
     fill:#008AC4;
 }
 
@@ -171,6 +171,26 @@ img:hover {
 .decor-right {
     right: 125px;
 }
+///****Нумера списков****/////
+ul {
+    color: #FA873D;
+}
+ ol{
+    color: #FA873D;
+    font-weight: bold;
+}
+ul span {
+    color:#133A4B ;
+}
+ol span{
+    color:#133A4B ;
+    font-weight: 500;
+}
+li {
+    margin-bottom: 10px;
+}
+
+
 
 
 /**Media**/
