@@ -103,4 +103,9 @@
             
         }
     }
+    .teams-page {
+        &__colums {
+           flex-wrap: wrap;
+        }
+    }
 }
