@@ -1,0 +1,17 @@
+.form-volunteer {
+    background: #008AC4;
+    &__container {}
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 97px;
+
+    }
+
+    &__title {
+        color: #fff;
+        padding-top: 41px;
+        margin-bottom: 25px;
+    }
+}
