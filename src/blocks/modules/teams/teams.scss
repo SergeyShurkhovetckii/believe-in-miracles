@@ -1,0 +1,35 @@
+.teams {
+    &__container{
+        margin-top: 38px;
+    }
+    &__item {
+        width:25%;
+        margin-bottom: 20px;
+    }
+
+    &__name {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #133A4B;
+    }
+
+    &__pic {}
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__slogan {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    &__specialty {
+        font-size: 16px;
+        line-height: 20px;
+        color: #8EAAB6;
+    }
+}
