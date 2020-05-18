@@ -14,4 +14,21 @@
         padding-top: 41px;
         margin-bottom: 25px;
     }
+    input[type='EMAIL'] {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        border: none;
+        width: 333px;
+        padding: 10px 0px 10px 15px;
+        color: #fff;
+    }
+    input ::placeholder{
+        color: #fff;
+    }
+    &__btn {
+        width: 179px;
+    }
+}
+label{
+    width: 333px;
 }
