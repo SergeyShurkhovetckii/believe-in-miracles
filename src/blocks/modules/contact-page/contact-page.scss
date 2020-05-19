@@ -49,6 +49,8 @@
 .map {
     &__container {
         position: relative;
+        width: 100%;
+        height: 536px;
         z-index: 3;
     
     }
@@ -125,5 +127,16 @@
            margin: 0 auto;
         }
 
+    }
+    .map {
+        &__container {
+            position:block;
+            display: flex;
+            margin-bottom: 200px;
+        
+        }
+        &__container img{
+            opacity: 1;
+        }
     }
 }

@@ -1,0 +1,56 @@
+.parthers-page {
+    &__block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 78px;
+        text-align: center;
+    }
+
+    &__container {
+        margin-bottom: 101px;
+    }
+
+    &__item {
+        width: 32%;
+        margin-bottom: 78px;
+    }
+
+    &__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    }
+
+    &__pic {
+        margin-bottom: 13px;
+    }
+    &__pic img:hover{
+        opacity: 1;
+    }
+
+}
+
+////***Media****///////
+
+@media screen and (max-width:768px) {
+    .parthers-page {
+        &__block {
+            flex-direction: column;
+        }
+    
+        &__container {}
+    
+        &__item {
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        &__name {}
+    
+        &__pic {}
+    
+        &__title {}
+    }
+}
+
