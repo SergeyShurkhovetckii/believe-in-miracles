@@ -1,12 +1,17 @@
 .demo {
     &__container {
-        margin-top: 100px;
-        
+        margin-top: 150px;
+       
+    }
+    &__lists{
+        display: flex;
+        justify-content: center;
     }
 
     &__list {
         display: flex;
         flex-direction: column;
+        width: 50%;
     }
 }
 .demo-link {
