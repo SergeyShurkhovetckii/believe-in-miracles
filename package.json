@@ -69,7 +69,7 @@
     },
     "dependencies": {
         "smart-grid": "^2.1.2",
-        "swiper": "^5.4.0"
+        "swiper": "^5.4.1"
     },
     "lint-staged": {
         "!(_*).scss": [

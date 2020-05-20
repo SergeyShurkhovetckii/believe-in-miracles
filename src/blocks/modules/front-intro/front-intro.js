@@ -17,8 +17,8 @@ var introSlider = new Swiper ('.front-intro__slider', {
       prevEl: '.swiper-button-prev',
     },
   });
-*/
 
+/*
   var appendNumber = 600;
   var prependNumber = 1;
   var swiper = new Swiper('.swiper-container', {
@@ -66,3 +66,4 @@ var introSlider = new Swiper ('.front-intro__slider', {
     e.preventDefault();
     swiper.virtual.appendSlide('Slide ' + (++appendNumber));
   });
+  */

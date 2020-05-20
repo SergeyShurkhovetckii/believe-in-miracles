@@ -1,13 +1,8 @@
-modules.define('main', ['i-bem-dom'], function(provide, bemDom) {
+import Swiper from 'swiper';
 
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
-});
+var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
