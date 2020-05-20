@@ -22,12 +22,12 @@ var introSlider = new Swiper ('.front-intro__slider', {
   var appendNumber = 600;
   var prependNumber = 1;
   var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3,
+    slidesPerView: 4,
     centeredSlides: true,
-    spaceBetween: 30,
+    spaceBetween: 40,
     pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
+    el: '.swiper-pagination',
+    type: 'fraction',
     },
     navigation: {
       nextEl: '.swiper-button-next',
