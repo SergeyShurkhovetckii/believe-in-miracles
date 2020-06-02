@@ -172,18 +172,20 @@ input[type="text"]::placeholder {
     //display: none;
     &__colums {
         display: flex;
-        padding: 64px 0px 55px 88px;
+        padding: 64px 265px 55px 88px;
     }
     &__colum{
-        width: 25%;
+        width: calc(100% - 80px);
         flex-direction: column;
     }
     &__container {
         background: #133A4B;
-        height: 470px;
+        height: fit-content;
     }
     &__list{
         list-style: none;
+        border-bottom: 1px solid #557383;
+        width: 154px;
     }
     &__title{
         font-weight: 500;
@@ -197,7 +199,23 @@ input[type="text"]::placeholder {
         color: #C9E0EC;
        margin-bottom: 4px;
     }
+    &__link:hover{
+        color: #7FFF43;
+    }
+    &__title:hover{
+        color: #7FFF43;
+    }
+    &__form {
+        display: flex;
+        padding-top: 10px;
+        margin-left: 90px;
+    }
   }
+  input.menu-dropdown__input {
+    width: 685px;
+    background: transparent;
+    border: 1px solid #557383;
+}
 //////////////////////////////////////////////////
   
 
