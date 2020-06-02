@@ -42,7 +42,46 @@
     -webkit-align-items: center;
     align-items: center;
   }
+  .swiper-pagination {
+      display: flex;
+      width: 82px;
+      justify-content: space-between;
+      position: absolute;
+      right: 19px;
+      bottom: 32px;
 
+    &__next {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FA873D;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        z-index: 10;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+    }
+    &__next:hover{
+        background: #008AC4;
+    }
+    &__prev{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FA873D;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        z-index: 10;
+        width: 36px;
+        height: 36px;
+        cursor: pointer;
+        transform: rotate(-180deg);
+    }
+    &__prev:hover{
+        background: #008AC4;
+    }
+  }
 
 
 ////**Media***////

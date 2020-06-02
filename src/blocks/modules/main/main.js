@@ -2,7 +2,7 @@ import Swiper from 'swiper';
 
 var swiper = new Swiper('.swiper-container', {
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-pagination__next',
+      prevEl: '.swiper-pagination__prev',
     },
   });

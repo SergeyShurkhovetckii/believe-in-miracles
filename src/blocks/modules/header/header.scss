@@ -167,6 +167,19 @@ input[type="text"]::placeholder {
     cursor: pointer;
 }
 
+////////////////////////////////////////////////
+.menu-dropdown {
+    display: none;
+    &__colums {
+    }
+    &__container {
+        background: #133A4B;
+        height: 470px;
+    }
+  }
+//////////////////////////////////////////////////
+  
+
 ///***Media***/////
 @media screen and (max-width:1024px) {
     .bottom {
