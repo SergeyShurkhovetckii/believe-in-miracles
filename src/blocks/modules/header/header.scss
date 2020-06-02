@@ -178,13 +178,12 @@ input[type="text"]::placeholder {
         width: 25%;
         flex-direction: column;
     }
-    &__item{
-        display: flex;
-        flex-direction: column;
-    }
     &__container {
         background: #133A4B;
         height: 470px;
+    }
+    &__list{
+        list-style: none;
     }
     &__title{
         font-weight: 500;
@@ -196,8 +195,7 @@ input[type="text"]::placeholder {
         font-size: 14px;
         line-height: 21px;
         color: #C9E0EC;
-        padding-top: 4px;
-        padding-bottom: 4px;
+       margin-bottom: 4px;
     }
   }
 //////////////////////////////////////////////////
