@@ -169,12 +169,35 @@ input[type="text"]::placeholder {
 
 ////////////////////////////////////////////////
 .menu-dropdown {
-    display: none;
+    //display: none;
     &__colums {
+        display: flex;
+        padding: 64px 0px 55px 88px;
+    }
+    &__colum{
+        width: 25%;
+        flex-direction: column;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
     }
     &__container {
         background: #133A4B;
         height: 470px;
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #C9E0EC;
+    }
+    &__link{
+        font-size: 14px;
+        line-height: 21px;
+        color: #C9E0EC;
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
   }
 //////////////////////////////////////////////////
