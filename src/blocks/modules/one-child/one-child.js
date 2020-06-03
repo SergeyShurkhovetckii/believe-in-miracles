@@ -1,13 +1,16 @@
-modules.define('one-child', ['i-bem-dom'], function(provide, bemDom) {
+import $ from "jquery";
+$(function() {
+	var tab = $('.tabs .tabs__items > div'); 
+	tab.hide().filter(':first').show(); 
+	$('.tabs .tabs__nav a').click(function(){
+		tab.hide(); 
+		tab.filter(this.hash).show(); 
+		$('.tabs .tabs__nav a').removeClass('active');
+		$(this).addClass('active');
+		return false;
+	}).filter(':first').click();
 
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
-
+	$('.tabs-target').click(function(){
+		$('.tabs .tabs__nav a[href=' + $(this).data('id')+ ']').click();
+	});
 });

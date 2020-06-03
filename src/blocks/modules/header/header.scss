@@ -169,7 +169,7 @@ input[type="text"]::placeholder {
 
 ////////////////////////////////////////////////
 .menu-dropdown {
-    //display: none;
+    display: none;
     &__colums {
         display: flex;
         padding: 64px 265px 55px 88px;
@@ -214,7 +214,7 @@ input[type="text"]::placeholder {
         position: absolute;
     }
   }
-  input.menu-dropdown__input {
+input.menu-dropdown__input {
     width: 649px;
     background: transparent;
     border: 1px solid #557383;
