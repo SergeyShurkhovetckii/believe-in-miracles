@@ -91,40 +91,37 @@
     }
 }
 
+//////////////////////////////////////////////////////////////
+.tabs__nav a.active {
+    border-bottom: 4px solid #008AC4;
+    color: #008AC4;
+    padding-bottom: 12px;
+}
+
 .tabs {
     &__container {
         margin-left: 22px;
     }
 
     &__item {
-        &--active a {
-            color: #008AC4;
-            border-bottom: 4px solid #008AC4;
-            padding-bottom: 14px;
-        }
+        margin-top: 43px;
+        margin-bottom: 100px;
     }
-
     &__nav {
         display: flex;
+        list-style: none;
         justify-content: space-between;
         width: 600px;
         padding-bottom: 14px;
         border-bottom: 1px solid #C9E0EC;
     }
 
-    &__info {
-        margin-top: 43px;
-        width: 596px;
-    }
-
-    &__name {
-        color: #133A4B;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
+    &__link {
+        margin-bottom: 0px;
     }
 }
 
+/////////////////////////////////////////////////////////
 @media screen and (max-width:1110px) {
     .page-child {
         &__colum {
