@@ -69,9 +69,10 @@
 
 .parther-swiper {
     width: 924px;
+    padding-left: 90px;
+    padding-right: 90px;
 
     &__item {
-        position: relative;
     }
 
     &__next {
