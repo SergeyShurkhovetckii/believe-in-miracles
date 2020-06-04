@@ -79,8 +79,8 @@
         height: 36px;
         background: #BECDD6;
         border-radius: 50%;
-        position: relative;
-        top: 0%;
+        position: absolute;
+        top: 40%;
         right:0px;
         z-index: 10;
         cursor: pointer;
@@ -100,9 +100,9 @@
         height: 36px;
         background: #BECDD6;
         border-radius: 50%;
-        position: relative;
-        top:0%;
-        right:0%;
+        position: absolute;
+        top:40%;
+        left:0%;
         z-index: 10;
         cursor: pointer;
         display: flex;
