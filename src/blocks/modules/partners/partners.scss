@@ -70,16 +70,18 @@
 .parther-swiper {
     width: 924px;
 
-    &__item {}
+    &__item {
+        position: relative;
+    }
 
     &__next {
         width: 36px;
         height: 36px;
         background: #BECDD6;
         border-radius: 50%;
-        position: absolute;
-        top: 30%;
-        right: 0px;
+        position: relative;
+        top: 0%;
+        right:0px;
         z-index: 10;
         cursor: pointer;
         display: flex;
@@ -98,10 +100,9 @@
         height: 36px;
         background: #BECDD6;
         border-radius: 50%;
-        width: 36px;
-        height: 36px;
-        position: absolute;
-        top: 30%;
+        position: relative;
+        top:0%;
+        right:0%;
         z-index: 10;
         cursor: pointer;
         display: flex;
