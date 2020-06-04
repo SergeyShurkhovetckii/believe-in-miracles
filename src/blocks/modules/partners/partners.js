@@ -1,13 +1,14 @@
-modules.define('partners', ['i-bem-dom'], function(provide, bemDom) {
+import Swiper from 'swiper';
 
-provide(bemDom.declBlock(this.name, {
-    onSetMod: {
-        js: {
-            inited: function() {
-                
-            }
-        }
-    }
-}));
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
 
-});
+    navigation: {
+      nextEl: '.parther-swiper__next',
+      prevEl: '.parther-swiper__prev',
+    },
+  });

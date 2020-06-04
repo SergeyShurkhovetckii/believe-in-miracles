@@ -1,13 +1,13 @@
 .partner {
     &__item {
-        width: 20%;
+        //  width: 20%;
         text-align: center;
     }
 
     //*Как без высоты указать текст на одной оси **//
-    &__pic {
-        height: 104px;
-    }
+    //&__pic {
+    //    height: 104px;
+    // }
 
     &__row {
         display: flex;
@@ -41,5 +41,72 @@
         &__row {
             flex-direction: column;
         }
+    }
+}
+
+.swiper-container {}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    list-style: none;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.parther-swiper {
+    width: 924px;
+
+    &__item {}
+
+    &__next {
+        width: 36px;
+        height: 36px;
+        background: #BECDD6;
+        border-radius: 50%;
+        position: absolute;
+        top: 30%;
+        right: 0px;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    &__pagination {
+        width: 1040px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__prev {
+        width: 36px;
+        height: 36px;
+        background: #BECDD6;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 30%;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
     }
 }

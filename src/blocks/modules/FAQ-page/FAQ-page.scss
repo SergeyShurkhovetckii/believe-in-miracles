@@ -48,18 +48,3 @@
     }
 }
 
-.faq-accordion__nav::before {
-    content: '\002B';
-    color: #8EAAB6;
-    font-weight: bold;
-    margin-right: 28px;
-   margin-left: 5px;
-}
-
-.active,.accordion:after {
-    content: "\2212";
-    color: #8EAAB6;
-    margin-right: 28px;
-    margin-left: 5px;
-
-}
