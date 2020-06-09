@@ -1,87 +1,60 @@
-.main {
-    &__pic {
-        margin-top: 17px;
-        position: relative;
-    }
-}
-
-.help {
-    position: absolute;
-    bottom: 30px;
-    left: 460px;
-    z-index: 10;
-
-    &__btn-orange a {
-        color: #fff;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 24px;
-    }
-}
-
-.main__slide {
-    width: 100%;
+.main-swiper {
+    position: relative;
     height: 100%;
-  }
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+    width: 1040px;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
     align-items: center;
-  }
-  .swiper-pagination {
-      display: flex;
-      width: 82px;
-      justify-content: space-between;
-      position: absolute;
-      right: 19px;
-      bottom: 32px;
+    overflow-x: hidden;
 
     &__next {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         background: #FA873D;
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
         border-radius: 20px;
-        z-index: 10;
         width: 36px;
         height: 36px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
     }
     &__next:hover{
         background: #008AC4;
     }
-    &__prev{
+
+    &__pagination {
+        width: 82px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 99999;
+        right: 19px;
+        bottom: 32px;
+    }
+
+    &__prev {
         background: #FA873D;
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
         border-radius: 20px;
-        z-index: 10;
         width: 36px;
         height: 36px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         cursor: pointer;
-        transform: rotate(-180deg);
     }
     &__prev:hover{
         background: #008AC4;
     }
-  }
+
+    &__slide {}
+
+    &__wrapper {
+    }
+}
 
 
 ////**Media***////
