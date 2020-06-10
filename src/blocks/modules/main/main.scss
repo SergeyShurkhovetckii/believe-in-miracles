@@ -1,11 +1,15 @@
 .main-swiper {
     position: relative;
     height: 100%;
-    width: 1040px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    margin-top: 17px;
+    margin-right: 0px;
+    max-width: 100%;
+    
+    padding-right: 15px;
 
     &__next {
         background: #FA873D;
@@ -22,6 +26,8 @@
     &__next:hover{
         background: #008AC4;
     }
+
+
 
     &__pagination {
         width: 82px;
@@ -48,6 +54,9 @@
     }
     &__prev:hover{
         background: #008AC4;
+    }
+    img {
+        opacity: 1;
     }
 
     &__slide {}
