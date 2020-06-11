@@ -5,3 +5,4 @@ import "%modules%/main/main";
 import "%modules%/one-child/one-child";
 import "%modules%/FAQ-page/FAQ-page";
 import "%modules%/partners/partners";
+import "%modules%/programa/programa";

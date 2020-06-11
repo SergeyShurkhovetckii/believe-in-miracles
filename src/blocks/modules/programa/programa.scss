@@ -1,24 +1,17 @@
 .programa {
+
     &__item {
-        max-width: 245px;
         text-align: center;
-        margin-left: 40px;
     }
-
-    &__item:first-child {
-        margin-left: 0;
-    }
-
     &__items {
         display: flex;
         flex-wrap: wrap;
     }
-
-    &__pic {}
-
     &__row {
-        width: 815px;
         margin: 0 auto;
+        position: relative;
+        padding-left: 91px;
+        padding-right: 91px;
     }
 
     &__text {
@@ -29,6 +22,38 @@
         margin-top: 72px;
         margin-bottom: 61px;
         text-align: center;
+    }
+    &__navigation{
+        display: flex;
+    }
+    &__next{
+        background: #BECDD6;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        top: 40%;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    &__prev{
+        background: #BECDD6;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center; 
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        cursor: pointer;
     }
 }
 
