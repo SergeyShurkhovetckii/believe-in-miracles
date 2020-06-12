@@ -37,6 +37,10 @@
         color: #133a4b;
     }
 }
+.subscribe-btn--disabled{
+    opacity: 0.6;
+    pointer-events: none;
+}
 
 input.subscribe {
     background: rgba(255, 255, 255, 0.2);
