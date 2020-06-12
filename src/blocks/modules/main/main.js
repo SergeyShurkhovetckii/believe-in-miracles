@@ -5,5 +5,6 @@ var swiper = new Swiper('.main-swiper', {
   navigation: {
     nextEl: '.main-swiper__next',
     prevEl: '.main-swiper__prev',
+    disabledClass: 'main-swiper--disabled'
   },
 });
