@@ -1,6 +1,7 @@
 import Swiper from 'swiper';
 
-var swiper = new Swiper('.main-swiper', {
+var mainswiper = new Swiper('.main-swiper', {
+  direction: 'horizontal',
   slidesPerView:1,
   navigation: {
     nextEl: '.main-swiper__next',

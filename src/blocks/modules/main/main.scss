@@ -67,9 +67,13 @@
         opacity: 0.6;
         pointer-events: none;
     }
-    &__main-swiper__btn a{
+    &__btn {
         color: #fff;
     }
+    &__btn:hover{
+        color: #fff;
+    }
+
 }
 
 
@@ -79,10 +83,6 @@
     .help {
         bottom: 0;
         left: 0;
-
-        &__btn {}
-
-        &__btn-orange {}
     }
 
     .main {
