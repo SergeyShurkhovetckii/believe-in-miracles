@@ -9,9 +9,8 @@
     }
     &__row {
         margin: 0 auto;
-        position: relative;
-        padding-left: 91px;
-        padding-right: 91px;
+        position: static;
+        width: 815px;
     }
 
     &__text {
@@ -36,10 +35,13 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        right: 0px;
+        right:440px;
         top: 40%;
         cursor: pointer;
         z-index: 1000;
+    }
+    &__next:hover{
+        background:#008AC4;
     }
     &__prev{
         background: #BECDD6;
@@ -51,9 +53,12 @@
         align-items: center;
         justify-content: center; 
         position: absolute;
-        left: 0px;
+        left: 440px;
         top: 40%;
         cursor: pointer;
+    }
+    &__prev:hover{
+        background:#008AC4;
     }
 }
 
