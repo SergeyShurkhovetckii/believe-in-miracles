@@ -68,10 +68,12 @@
         "yargs": "^13.2.4"
     },
     "dependencies": {
+        "jQuery.mmenu-less": "^4.3.4",
         "jquery": "^3.5.1",
         "jquery-ui": "^1.12.1",
         "jquery-widget": "^0.1.8",
         "jquery.ui.widget": "^1.10.3",
+        "mmenu-js": "^8.5.13",
         "smart-grid": "^2.1.2",
         "swiper": "^5.4.1"
     },
