@@ -13,6 +13,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        position: relative;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     &__text {
@@ -23,6 +26,57 @@
         text-align: center;
         margin-top: 50px;
         margin-bottom: 71px;
+    }
+}
+
+.parther-swiper {
+    width: 924px;
+    position: static;
+
+    &__item {}
+
+    &__next {
+        width: 36px;
+        height: 36px;
+        background: #BECDD6;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        right: 0px;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__next:hover {
+        background: #008AC4;
+    }
+
+    &__pagination {
+        width: 1040px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__prev {
+        width: 36px;
+        height: 36px;
+        background: #BECDD6;
+        border-radius: 50%;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__prev:hover {
+        background: #008AC4;
     }
 }
 
@@ -41,50 +95,5 @@
         &__row {
             flex-direction: column;
         }
-    }
-}
-.parther-swiper {
-    width: 924px;
-    padding-left: 90px;
-    padding-right: 90px;
-
-    &__item {
-    }
-
-    &__next {
-        width: 36px;
-        height: 36px;
-        background: #BECDD6;
-        border-radius: 50%;
-        position: absolute;
-        top: 40%;
-        right:0px;
-        z-index: 10;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
-
-    &__pagination {
-        width: 1040px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    &__prev {
-        width: 36px;
-        height: 36px;
-        background: #BECDD6;
-        border-radius: 50%;
-        position: absolute;
-        top:40%;
-        left:0%;
-        z-index: 10;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
     }
 }
