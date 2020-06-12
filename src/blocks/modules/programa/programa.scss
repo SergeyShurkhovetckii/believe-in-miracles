@@ -1,4 +1,7 @@
 .programa {
+    position: relative;
+    padding-left: 91px;
+    padding-right: 91px;
 
     &__item {
         text-align: center;
@@ -35,7 +38,7 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        right:440px;
+        right:0px;
         top: 40%;
         cursor: pointer;
         z-index: 1000;
@@ -53,7 +56,7 @@
         align-items: center;
         justify-content: center; 
         position: absolute;
-        left: 440px;
+        left: 0px;
         top: 40%;
         cursor: pointer;
     }
