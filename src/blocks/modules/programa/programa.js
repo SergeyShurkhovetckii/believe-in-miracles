@@ -1,11 +1,11 @@
 import Swiper from 'swiper';
 
 var programa = new Swiper('.programa__row', {
-    direction: 'horizontal',
     slidesPerView:3,
-    slideVisibleClass: 'none',
     spaceBetween:40,
-    centeredSlides: false,
+    slidesPerGroup: 3,
+    loop: true,
+    loopFillGroupWithBlank: true,
     navigation: {
       nextEl: '.programa__next',
       prevEl: '.programa__prev',
